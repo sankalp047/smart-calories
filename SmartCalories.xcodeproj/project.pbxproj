@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB000000000000000000060 /* CaloriesWidget.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = BB000000000000000000001 /* CaloriesWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CC000000000000000000002 /* ScaleActivityAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC000000000000000000001 /* ScaleActivityAttributes.swift */; };
+		CC000000000000000000003 /* ScaleActivityAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC000000000000000000001 /* ScaleActivityAttributes.swift */; };
+		CC000000000000000000005 /* WatchSync.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC000000000000000000004 /* WatchSync.swift */; };
+		DD000000000000000000060 /* SmartCaloriesWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = DD000000000000000000001 /* SmartCaloriesWatch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DD000000000000000000061 /* WatchSync.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC000000000000000000004 /* WatchSync.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB000000000000000000070 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA0000000000000000000032 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB000000000000000000040;
+			remoteInfo = CaloriesWidget;
+		};
+		DD000000000000000000070 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA0000000000000000000032 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD000000000000000000040;
+			remoteInfo = SmartCaloriesWatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BB000000000000000000090 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				BB000000000000000000060 /* CaloriesWidget.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD000000000000000000090 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				DD000000000000000000060 /* SmartCaloriesWatch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AA0000000000000000000001 /* SmartCalories.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartCalories.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB000000000000000000001 /* CaloriesWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CaloriesWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC000000000000000000001 /* ScaleActivityAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ScaleActivityAttributes.swift; path = Shared/ScaleActivityAttributes.swift; sourceTree = "<group>"; };
+		CC000000000000000000004 /* WatchSync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WatchSync.swift; path = Shared/WatchSync.swift; sourceTree = "<group>"; };
+		DD000000000000000000001 /* SmartCaloriesWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartCaloriesWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		BB000000000000000000011 /* Exceptions for "CaloriesWidget" folder in "CaloriesWidget" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = BB000000000000000000040 /* CaloriesWidget */;
+		};
+		DD000000000000000000011 /* Exceptions for "WatchApp" folder in "SmartCaloriesWatch" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = DD000000000000000000040 /* SmartCaloriesWatch */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		AA0000000000000000000010 /* SmartCalories */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SmartCalories;
+			sourceTree = "<group>";
+		};
+		BB000000000000000000010 /* CaloriesWidget */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				BB000000000000000000011 /* Exceptions for "CaloriesWidget" folder in "CaloriesWidget" target */,
+			);
+			path = CaloriesWidget;
+			sourceTree = "<group>";
+		};
+		DD000000000000000000010 /* WatchApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				DD000000000000000000011 /* Exceptions for "WatchApp" folder in "SmartCaloriesWatch" target */,
+			);
+			path = WatchApp;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA0000000000000000000020 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB000000000000000000020 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD000000000000000000020 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA0000000000000000000030 = {
+			isa = PBXGroup;
+			children = (
+				AA0000000000000000000010 /* SmartCalories */,
+				CC000000000000000000010 /* Shared */,
+				BB000000000000000000010 /* CaloriesWidget */,
+				DD000000000000000000010 /* WatchApp */,
+				AA0000000000000000000031 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA0000000000000000000031 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA0000000000000000000001 /* SmartCalories.app */,
+				BB000000000000000000001 /* CaloriesWidget.appex */,
+				DD000000000000000000001 /* SmartCaloriesWatch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC000000000000000000010 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				CC000000000000000000001 /* ScaleActivityAttributes.swift */,
+				CC000000000000000000004 /* WatchSync.swift */,
+			);
+			name = Shared;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA0000000000000000000040 /* SmartCalories */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA0000000000000000000053 /* Build configuration list for PBXNativeTarget "SmartCalories" */;
+			buildPhases = (
+				AA0000000000000000000021 /* Sources */,
+				AA0000000000000000000020 /* Frameworks */,
+				AA0000000000000000000022 /* Resources */,
+				BB000000000000000000090 /* Embed Foundation Extensions */,
+				DD000000000000000000090 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB000000000000000000080 /* PBXTargetDependency */,
+				DD000000000000000000080 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AA0000000000000000000010 /* SmartCalories */,
+			);
+			name = SmartCalories;
+			packageProductDependencies = (
+			);
+			productName = SmartCalories;
+			productReference = AA0000000000000000000001 /* SmartCalories.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BB000000000000000000040 /* CaloriesWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB000000000000000000053 /* Build configuration list for PBXNativeTarget "CaloriesWidget" */;
+			buildPhases = (
+				BB000000000000000000021 /* Sources */,
+				BB000000000000000000020 /* Frameworks */,
+				BB000000000000000000022 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				BB000000000000000000010 /* CaloriesWidget */,
+			);
+			name = CaloriesWidget;
+			productName = CaloriesWidget;
+			productReference = BB000000000000000000001 /* CaloriesWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		DD000000000000000000040 /* SmartCaloriesWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD000000000000000000053 /* Build configuration list for PBXNativeTarget "SmartCaloriesWatch" */;
+			buildPhases = (
+				DD000000000000000000021 /* Sources */,
+				DD000000000000000000020 /* Frameworks */,
+				DD000000000000000000022 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				DD000000000000000000010 /* WatchApp */,
+			);
+			name = SmartCaloriesWatch;
+			productName = SmartCaloriesWatch;
+			productReference = DD000000000000000000001 /* SmartCaloriesWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA0000000000000000000032 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					AA0000000000000000000040 = {
+						CreatedOnToolsVersion = 26.0;
+					};
+				};
+			};
+			buildConfigurationList = AA0000000000000000000050 /* Build configuration list for PBXProject "SmartCalories" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA0000000000000000000030;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = AA0000000000000000000031 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA0000000000000000000040 /* SmartCalories */,
+				BB000000000000000000040 /* CaloriesWidget */,
+				DD000000000000000000040 /* SmartCaloriesWatch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA0000000000000000000022 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB000000000000000000022 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD000000000000000000022 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA0000000000000000000021 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC000000000000000000002 /* ScaleActivityAttributes.swift in Sources */,
+				CC000000000000000000005 /* WatchSync.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB000000000000000000021 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC000000000000000000003 /* ScaleActivityAttributes.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD000000000000000000021 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD000000000000000000061 /* WatchSync.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB000000000000000000080 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB000000000000000000040 /* CaloriesWidget */;
+			targetProxy = BB000000000000000000070 /* PBXContainerItemProxy */;
+		};
+		DD000000000000000000080 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD000000000000000000040 /* SmartCaloriesWatch */;
+			targetProxy = DD000000000000000000070 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AA0000000000000000000051 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AA0000000000000000000052 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA0000000000000000000054 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SmartCalories/SmartCalories.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 6585853NMW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AppInfo.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Smart Calories";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Connect to your smart kitchen scale to read live weight while you log food.";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Scan barcodes and nutrition labels to log packaged foods.";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Read steps, energy and heart rate so you can compare what you burn against what you eat.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Save your logged nutrition to Apple Health.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Pick a photo of a nutrition label to read its calories.";
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sankalpsingh.smartcalories;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		AA0000000000000000000055 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SmartCalories/SmartCalories.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 6585853NMW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AppInfo.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Smart Calories";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Connect to your smart kitchen scale to read live weight while you log food.";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Scan barcodes and nutrition labels to log packaged foods.";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Read steps, energy and heart rate so you can compare what you burn against what you eat.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Save your logged nutrition to Apple Health.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Pick a photo of a nutrition label to read its calories.";
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sankalpsingh.smartcalories;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		BB000000000000000000054 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = CaloriesWidget/CaloriesWidget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6585853NMW;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CaloriesWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Calories;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sankalpsingh.smartcalories.CaloriesWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		BB000000000000000000055 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = CaloriesWidget/CaloriesWidget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6585853NMW;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CaloriesWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Calories;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sankalpsingh.smartcalories.CaloriesWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		DD000000000000000000054 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = WatchApp/SmartCaloriesWatch.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6585853NMW;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WatchApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Smart Calories";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.sankalpsingh.smartcalories;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = NO;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sankalpsingh.smartcalories.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		DD000000000000000000055 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = WatchApp/SmartCaloriesWatch.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6585853NMW;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WatchApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Smart Calories";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.sankalpsingh.smartcalories;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = NO;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sankalpsingh.smartcalories.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA0000000000000000000050 /* Build configuration list for PBXProject "SmartCalories" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA0000000000000000000051 /* Debug */,
+				AA0000000000000000000052 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA0000000000000000000053 /* Build configuration list for PBXNativeTarget "SmartCalories" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA0000000000000000000054 /* Debug */,
+				AA0000000000000000000055 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB000000000000000000053 /* Build configuration list for PBXNativeTarget "CaloriesWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB000000000000000000054 /* Debug */,
+				BB000000000000000000055 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD000000000000000000053 /* Build configuration list for PBXNativeTarget "SmartCaloriesWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD000000000000000000054 /* Debug */,
+				DD000000000000000000055 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA0000000000000000000032 /* Project object */;
+}

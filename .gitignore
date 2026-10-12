@@ -1,0 +1,16 @@
+# macOS
+.DS_Store
+
+# Xcode user state
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+
+# Build output
+build/
+DerivedData/
+*.ipa
+*.dSYM.zip
+
+# Local backend configuration (copy from Secrets.swift.example)
+SmartCalories/Services/Secrets.swift

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>WKApplication</key>
+	<true/>
+	<!-- watchOS refuses to install an app with no icon, and the asset-catalog
+	     compiler does not inject this key when a partial INFOPLIST_FILE is
+	     supplied — so it is declared explicitly. -->
+	<key>CFBundleIconName</key>
+	<string>AppIcon</string>
+	<key>WKCompanionAppBundleIdentifier</key>
+	<string>com.sankalpsingh.smartcalories</string>
+	<key>WKRunsIndependentlyOfCompanionApp</key>
+	<false/>
+	<key>NSHealthShareUsageDescription</key>
+	<string>Reads your heart rate during a streaming session so it can be sent live to the iPhone app.</string>
+	<key>NSHealthUpdateUsageDescription</key>
+	<string>A workout session keeps the heart sensor active while streaming; the workout itself is discarded, not saved.</string>
+</dict>
+</plist>
